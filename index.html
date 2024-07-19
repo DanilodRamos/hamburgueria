@@ -4,14 +4,15 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
 
-<link rel="stylesheet" 
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" 
-integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" 
-crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <link rel="stylesheet" href="./styles/output.css" />
 
@@ -35,7 +36,7 @@ crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 <div class="bg-green-600 px-4 py-1 rounded-lg mt-5" id="date-span">
-    <span class="text-white font-medium">Terça á Domingo-18:00 as 23:00</span>
+    <span class="text-white font-medium">Seg á Dom - 18:00 as 22:00</span>
 </div>
 </div>
 </header>
@@ -290,7 +291,7 @@ id="cart-modal"
 >
 <div class=" bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
     <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
-    
+
     <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
 
     <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
@@ -324,6 +325,7 @@ Veja meu carrinho
 <!-- FIM BUTTON CARD FOOTER-->
 
 <!--importando javascrip-->
+<script type="text/javascrip" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 <script src="script.js"></script>
 
 </body>

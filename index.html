@@ -285,10 +285,14 @@ class="w-28 h-28 rounded-md hover:scale-100 houver:-rotate-2 duration-300"
 <!--final do menu-->
 
 <!--Modal card-->
-<div class=" bg-black/60 w-full h-full fixed top-0 left-0 z-[99]  items-center justify-center hidden">
+<div class=" bg-black/60 w-full h-full fixed top-0 left-0 z-[99]  items-center justify-center hidden"
+id="cart-modal"
+>
 <div class=" bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
     <h2 class="text-center font-bold text-2xl mb-2">Meu carrinho</h2>
+    
     <div id="cart-items" class="flex justify-between mb-2 flex-col"></div>
+
     <p class="font-bold">Total: <span id="cart-total">0.00</span></p>
     <p class="font-bold mt-4">Endereço de entrega:</p>
     <input 
@@ -318,6 +322,9 @@ Veja meu carrinho
 </button>
 </footer>
 <!-- FIM BUTTON CARD FOOTER-->
+
+<!--importando javascrip-->
+<script src="script.js"></script>
 
 </body>
 </html>
